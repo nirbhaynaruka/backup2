@@ -106,7 +106,7 @@ h1 {
 }
 
 .parallax1 {
-  background-image: url('../assets/world_bg.png');
+  /* background-image: url('../assets/world_bg.png'); */
   /* background-color: transparent; */
   height: fit-content;
   background-attachment: fixed;
