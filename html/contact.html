@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../Website Template/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Website Template/backup_logo.jpg" alt="logo.jpg" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button type="button" id="button_head"><a class="nav-link" href="../index.html">Home <span
+                                    class="sr-only">(current)</span></button></a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" id="button_head"><a class="nav-link" href="aboutus.html">About Us</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" id="button_head"><a class="nav-link" href="feature.html">Product</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" id="button_head"><a class="nav-link" href="contact.html">Contact</button></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid">
+        <div class="heading row">
+            <div class="col-md-8 contact_us animation-element slide-left testimonial">
+                <h2>Contact <span style="color: green">&nbsp;Us</span></h2>
+            </div>
+            <div class="col-md-4  animation-element slide-right testimonial">
+                <img src="../Website Template/contact_img.jpg" alt="Contact.img" id="contact_img">
+            </div>
+        </div>
+        <div class=" contact_form row">
+            <div style="background: green; padding-left:40px; height: 600px;"></div>
+            <div class="col-md-7 send_form">
+                <h3>Send Us a Message</h3>
+                <form action="#" id="cont_form">
+                    <div class="inp_form">
+                        <input type="text" placeholder="Name*">
+                    </div>
+                    <div class="inp_form">
+                        <input type="email" name="email" id="email" placeholder="Email*">
+                    </div>
+                    <div class="inp_form">
+                        <input type="text" name="phone" id="phone" placeholder="Phone*">
+                    </div>
+                    <div class="inp_form">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message*"></textarea>
+                    </div>
+                    <button type="submit" class="button_submit">Submit</button>
+                </form>
+                <p style="color: white; text-align:bottom; padding-top: 120px; font-size: 20px;">We are here to assist. Contact us by phone, email or via our Social Media Channels.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="details">
+                    <h3>Mail us at</h3>
+                    <a href="mailto:tusharnarula98@gmail.com">tusharnarula98@gmail.com</a>
+                    <h3>Call us at</h3>
+                    <p>+91 9899070184</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid ">
+        <div class="row">
+            <div class="col-md-6 icon">
+                <a href="#"><i class="fab fa-facebook-f fa-2x" id="foot_icon"></i></a>
+                <a href="#" style="margin:0 15px 0 15px"><i class="fab fa-instagram fa-2x" id="foot_icon"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x" id="foot_icon"></i></a>
+            </div>
+            <div class="col-md-6" style="font-size:1.5em; text-align: end; padding-right:120px;">
+                <p>
+                    Powered by <span><img src="../Website Template/quaffle.jpg" alt="quaffle.jpg" class="quaffle_img"></span> <span style="font-weight: bold;color:green;">Quaffle</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/animation.js"></script>
+</body>
+
+</html>
