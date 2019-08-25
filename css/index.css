@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=El+Messiri");
+.card {
+  position: relative;
+  max-width: 26.5em;
+  margin: 2rem auto;
+  padding: 2em;
+  background: #fff;
+}
+
+.card__title {
+  margin: 0 auto 1em;
+  color: #333;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card__img {
+  display: block;
+  width: 20em;
+  max-width: 100%;
+  margin: 1em auto;
+  border-radius: 2px;
+}
+
+/**
+ * Card #4
+ */
+.card--4 {
+  overflow: hidden;
+}
+.card--4 .card__title {
+  position: relative;
+  z-index: 1;
+  display: table;
+  margin: auto;
+}
+.card--4 .card__title:before, .card--4 .card__title:after {
+  content: '';
+  position: absolute;
+  transition: .3s ease;
+}
+.card--4 .card__title:before {
+  width: .1em;
+  height: 180%;
+  top: -40%;
+  left: -5%;
+  background: #e43;
+  z-index: 1;
+  box-shadow: -5px 0 0 0 #e43;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -200px, 0);
+          transform: translate3d(0, -200px, 0);
+}
+.card--4 .card__title:after {
+  width: 122%;
+  height: .1em;
+  left: -11%;
+  bottom: -10%;
+  background: #fff;
+  box-shadow: 0 5px  0 0 #fff;
+  opacity: 0;
+  -webkit-transform: translate3d(300px, 0, 0);
+          transform: translate3d(300px, 0, 0);
+}
+.card--4.active .card__title:before,
+.card--4.active .card__title:after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
