@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
+.header{
+    position:;
+    background:transparent;
+	color: white;
+    z-index: 10;
+	width: 100%;
+}
+
+.header a{
+    color:white;
+}
+.sticky {
+	position: fixed;
+	top: -19px;
+    width: 100%;
+  }
+
 .card {
   position: relative;
   max-width: 26.5em;
@@ -46,7 +63,7 @@
   top: -40%;
   left: -5%;
   background: #e43;
-  z-index: 1;
+  z-index:;
   box-shadow: -5px 0 0 0 #e43;
   opacity: 0;
   -webkit-transform: translate3d(0, -200px, 0);

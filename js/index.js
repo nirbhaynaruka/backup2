@@ -59,3 +59,18 @@ function leaveCard4() {
 
 card4.addEventListener('mouseenter', enterCard4, false);
 card4.addEventListener('mouseleave', leaveCard4, false);
+window.onscroll = function () {
+    myFunction()
+  };
+
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  var shrink = document.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
