@@ -18,9 +18,7 @@
 
 .card {
   position: relative;
-  max-width: 26.5em;
-  margin: 2rem auto;
-  padding: 2em;
+
   background: #fff;
 }
 
