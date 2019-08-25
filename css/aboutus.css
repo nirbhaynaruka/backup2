@@ -7,6 +7,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.fixed {
+  position: sticky;
+  top:0; 
+  left:0;
+  width: 100%; 
+  z-index: 10;
+
+}
 #particles-js {
   /* z-index: 1; */
   width: 100%;

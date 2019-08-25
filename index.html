@@ -26,15 +26,15 @@
     <title>BackUp</title>
     <script>
         $(document).ready(function () {
-            $("#hidden1").fadeIn(3000);
-            $("#hidden2").fadeIn(3000);
+            $("#fadein").fadeIn(3000);
+            $("#fadeout").fadeIn(3000);
         });
     </script>
 
 </head>
 
 <body>
-    <header class="container-fluid p-0 header" id="myHeader">
+    <header class="container-fluid p-0 fixed" id="myHeader">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
                 <img style="width: 50%;" src="assets/logo.png" alt="logo.jpg" id="logo">
@@ -71,7 +71,7 @@
     </header>
     <div class="particle">
         <div id="particles-js">
-            <div class="main_heading" style="z-index: 10; position: absolute;">
+            <div class="main_heading" id="fadein" style="z-index: 10;">
                 <img style="width:115px;margin:0 21px 0 0" src="assets/logo.png">
                 <img style="width:373px;" src="assets/backup_text.png" alt="backup.jpg" >
                 <h3 style="color: white; padding-top:50px; font-size: 2em; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;">General cyber-security training provider</h3>
@@ -124,7 +124,7 @@
                                 In 2017,there was a 500% increase in phishing attacks and 100% increase in pharming attacks which have been in society for a long time yet are effective hence. Morever, in 2017, the average cost of a data breach in North Americais $1.3 million for enterprises and $117,000 for small.
                             </p>
                             <div style="text-align: center;padding-bottom:50px;text-align: left;">
-                                    <a href="html/aboutus.html"><button id="more">Read More...</button></a>
+                                    <a href="html/aboutus.html#ourTeam"><button id="more">Read More...</button></a>
                             </div>
                     </div>
                     
