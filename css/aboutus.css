@@ -48,7 +48,7 @@ header {
 }
 
 .container-fluid {
-  z-index: 100;
+  z-index: 20;
   color: black;
 }
 
