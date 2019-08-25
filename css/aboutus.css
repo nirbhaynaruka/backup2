@@ -16,7 +16,7 @@ body {
   align-items:center; 
   z-index: -10;
   background-color: black;
-  background-image: url('');
+  background-image: url('../assets/world_bg.png');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
