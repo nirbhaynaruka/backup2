@@ -122,6 +122,55 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.numbers{
+  padding: 4vmin 4vmin 0 4vmin;
+}
+#head_f{
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+}
+.rect{
+  background: white;
+  position: relative;
+  width: 15rem;
+  height: 13rem;
+  padding-top: 5vmin;
+  border-radius: 0.4em;
+  box-shadow:  0px 10px 42px rgba(230, 225, 225, 0.5);
+  margin: 3em 5em 5em 5em;
+}
+.rect:nth-child(1){
+  background-image: url("../assets/feature_game.png");
+  background-repeat: no-repeat;
+  background-position: 40%;
+  background-size: 340px;
+}
+.rect:nth-child(2){
+  background-image: url("../assets/feature_perf.png");
+  background-repeat: no-repeat;
+  background-position: 40%;
+  background-size: 340px;
+}
+.rect:nth-child(3){
+  background-image: url("../assets/feature_cont.png");
+  background-repeat: no-repeat;
+  background-position: 40%;
+  background-size: 340px;
+}
+.rect>h1{
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+}
+#ourteam{
+  /* background-image: url("../assets/dot_bg4.png") */
+}
 
 .card {
   z-index: 100;
@@ -182,8 +231,9 @@ a:hover {
   border-radius: 2em;
   background: black;
   color: white;
-  height: 40px;
-  font-size: 18px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
 }
 
 .animation-element {
